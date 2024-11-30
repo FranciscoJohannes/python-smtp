@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 SMTP_SERVER = 'smtp.gmail.com'  # Enter your SMTP server
 SMTP_PORT = 587  # Common port for SMTP
-SMTP_USERNAME = 'franciscojohannes50@gmail.com'  # Your email
-SMTP_PASSWORD = 'your_password'  # Your Gmail app password or regular password (consider using app-specific passwords)
+SMTP_USERNAME = 'johannesfrancisco50@gmail.com'  # Your email
+SMTP_PASSWORD = 'donv ltei mxfb xdnu'  # Your Gmail app password or regular password (consider using app-specific passwords)
 
 @app.route('/send-email', methods=['POST'])
 def send_email():
